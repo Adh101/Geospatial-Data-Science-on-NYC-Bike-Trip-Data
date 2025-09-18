@@ -22,14 +22,13 @@ A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answer
 │   ├── stations.csv
 │   └── trip_data.csv
 ├── scripts/
-│   ├── 01_ddl.sql
-│   ├── 02_query.sql
-│   ├── 03_time_based_analysis.sql
-│   └── 04_spatial_data_analysis.sql
+│   ├── 01_ddl.sql                         #Enable PostGIS, create base tables (`stations`, `trip_data`), load notes for tracts. 
+│   ├── 02_query.sql                       #Business queries (counts, % e-bikes, busiest stations, average duration).
+│   ├── 03_time_based_analysis.sql         #Half-hour time bucketing + busiest intervals. 
+│   └── 04_spatial_data_analysis.sql       #CRS/SRID prep, station points, spatial joins, tract aggregation, buffers.
 ├── README.md
 ├── notebook.ipynb
 └── nyc_trip_choropleth.html
-
 ```
 
 
