@@ -11,6 +11,28 @@ A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answer
 - `03_time_based_analysis.sql` — Half-hour time bucketing + busiest intervals.  
 - `04_spatial_data_analysis.sql` — CRS/SRID prep, station points, spatial joins, tract aggregation, buffers.
 
+```
+├── analysis_exports/
+│   ├── half_hour_interval_start_counts.csv
+│   ├── spatio_temporal_visualization_05_01_202509171746.csv
+│   ├── top_stations_buffer.csv
+│   └── trip_count_by_census_tract.csv
+├── data/
+│   ├── nyct2020.geojson
+│   ├── stations.csv
+│   └── trip_data.csv
+├── scripts/
+│   ├── 01_ddl.sql
+│   ├── 02_query.sql
+│   ├── 03_time_based_analysis.sql
+│   └── 04_spatial_data_analysis.sql
+├── README.md
+├── notebook.ipynb
+└── nyc_trip_choropleth.html
+
+```
+
+
 > Execute scripts **in order** (see “Run the project” below).
 
 ---
