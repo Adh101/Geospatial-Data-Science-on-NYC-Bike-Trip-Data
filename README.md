@@ -1,6 +1,6 @@
-# Geospatial Data Science on NYC Bike Trip Data (PostgreSQL + PostGIS)
+# Geospatial Data Science on NYC Bike Trip Data (PostgreSQL + PostGIS + GeoPandas)
 
-A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answers core business questions, bins usage by time, prepares spatial data (SRIDs, point geometry creation), performs tract-level spatial joins/aggregations, and runs proximity/buffer analysis for operations.
+A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answers core business questions, bins usage by time, prepares spatial data (SRIDs, point geometry creation), performs tract-level spatial joins/aggregations, and runs proximity/buffer analysis for operations. Further, **GeoPandas** and **Folium** are used to visualize the aggregated data in Python.
 
 ---
 
