@@ -44,6 +44,8 @@ A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answer
 
 ## 🚀 Run the Project
 
+### Setting the database and querying using PostgreSQL and PostGIS
+
 From `psql` (or your SQL client), run the scripts in order:
 
 ```sql
@@ -51,3 +53,26 @@ From `psql` (or your SQL client), run the scripts in order:
 \i 02_query.sql
 \i 03_time_based_analysis.sql
 \i 04_spatial_data_analysis.sql
+```
+
+### Running the Notebook
+
+### 1) Clone the Repository
+```bash
+git clone https://github.com/Adh101/Geospatial-Data-Science-on-NYC-Bike-Trip-Data.git
+cd Geospatial-Data-Science-on-NYC-Bike-Trip-Data
+```
+
+### 2) Create and activate a virtual environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3) Install the dependecies
+```bash
+pip install geopandas shapely pandas numpy folium mapclassify
+```
+
+### 4) Run the notebook cells to visualize the aggregated data from analysis_exports.
+
