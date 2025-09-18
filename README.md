@@ -2,6 +2,11 @@
 
 A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answers core business questions, bins usage by time, prepares spatial data (SRIDs, point geometry creation), performs tract-level spatial joins/aggregations, and runs proximity/buffer analysis for operations. Further, **GeoPandas** and **Folium** are used to visualize the aggregated data in Python.
 
+## 📚 Reference
+
+- Ma, Maggie. *Hands-On PostgreSQL Project: Spatial Data Science*. LinkedIn Learning.  
+  [Course link](https://www.linkedin.com/learning/hands-on-postgresql-project-spatial-data-science)
+
 ---
 
 ## 📂 Repository Contents
@@ -74,5 +79,5 @@ source .venv/bin/activate
 pip install geopandas shapely pandas numpy folium mapclassify
 ```
 
-### 4) Run the notebook cells to visualize the aggregated data from analysis_exports.
+### 4) Run the notebook cells to visualize the aggregated data.
 
