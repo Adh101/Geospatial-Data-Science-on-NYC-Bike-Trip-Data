@@ -15,16 +15,14 @@ A **PostgreSQL/PostGIS–first** project that ingests NYC bike-trip data, answer
 
 ---
 
-## ⚙️ Prerequisites
+## ⚙️ Tech stack
 
-- **PostgreSQL** 13+ (or compatible)  
+- **PostgreSQL**  
 - **PostGIS** extension installed (`CREATE EXTENSION postgis;`)  
-- NYC bike trips CSV (columns: `ride_id, bike_type, start_time, end_time, start_station_id, end_station_id`)  
-- **NYC census tract boundaries** (e.g., `nyct2020` GeoJSON/ESRI)
-
-Optional tooling:
 - **GDAL/ogr2ogr** for quick loading of GeoJSON → PostGIS
-- A SQL client or `psql` CLI
+- **QGIS** for visualizations
+- **GeoPandas** to perform analysis and visualization with Python
+- **Folium** for interactive map creation.
 
 ---
 
